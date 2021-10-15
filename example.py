@@ -1,6 +1,6 @@
 from backend.node import Node, AdderNode, SquareNode
 from backend.port import Port
-# 测试样例，node中只输出信息
+# 测试样例，node中计算并输出信息
 # 两输入一输出的加法器node，连接一输入一输出的平方node，用control link连接
 
 node1 = AdderNode('node1')
